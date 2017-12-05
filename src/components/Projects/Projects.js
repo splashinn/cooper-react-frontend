@@ -4,6 +4,7 @@ import ProjectForm from './ProjectForm';
 import { ProjectsList } from './ProjectsList';
 import update from 'immutability-helper';
 import Header from './Header';
+import $ from 'jquery';
 
 export default class Projects extends React.Component {
   static propTypes = {

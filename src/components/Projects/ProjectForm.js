@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { FormErrors } from './FormErrors';
 import update from 'immutability-helper';
 import { validations } from '../utils/validations';
+import $ from 'jquery';
 
 export default class ProjectForm extends React.Component {
   static propTypes = {
