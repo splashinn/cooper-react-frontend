@@ -1,6 +1,8 @@
 # cat-frontend
 > Frontend React app for project management
 
+- This React application is currently non-working while I am working on porting over components from another project.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
