@@ -23,7 +23,7 @@ export default class Project extends React.Component {
     if(this.props.match) {
       $.ajax({
         type: "GET",
-        url: `/projects/${this.props.match.params.id}`,
+        url: `http://localhost:3001/projects/${this.props.match.params.id}`,
         dataType: "JSON"
       }).done((data) => {
         this.setState({project: data});
